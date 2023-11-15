@@ -2,7 +2,7 @@ package Test1;
 
 import java.util.Date;
 
-public class app {
+public class app extends course {
     // addCourse will create a new course object and add it to the list of courses
     public static void addCourse(String name, String code, Date startDate, Integer numberOfStudents){
         course course = new course(name, code, startDate, numberOfStudents);
@@ -14,6 +14,6 @@ public class app {
         course.setNumberOfStudents(numberOfStudents);
     }
 
+    }
 
 
-}
