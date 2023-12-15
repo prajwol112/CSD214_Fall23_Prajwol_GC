@@ -1,8 +1,9 @@
-package lab3.q3;
+package lab4;
+
 
 import java.util.Date;
 
-public class Magazine extends Publication{
+public class Magazine extends Publication {
     private Integer orderQty;
     private Date currIssue;
 
@@ -35,5 +36,10 @@ public class Magazine extends Publication{
     @Override
     public String toString() {
         return "Magazine{" + "orderQty=" + orderQty + ", currIssue=" + currIssue + "}" + super.toString();
+    }
+
+    @Override
+    public void sellItem() {
+        sellItem();
     }
 }
